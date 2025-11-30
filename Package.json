@@ -1,0 +1,21 @@
+{
+    "name": "com.egs.eventbus",
+    "version": "0.0.1",
+    "displayName": "EventBus",
+    "description": "...",
+    "unity": "2020.3",
+    "unityRelease": "8f1",
+    "author": {
+        "name": "EGS",
+        "email": "eletronicgamesstudio@gmail.com",
+        "url": ""
+    },
+    "type": "tools",
+    "samples": [
+        {
+            "displayName": "EventBus subscrible and publish Example",
+            "description": "Exemplo de uso do EventBus para registrar e publicar os eventos.",
+            "path": "Samples/EventBus Example"
+        }
+    ]
+}
