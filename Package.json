@@ -1,10 +1,10 @@
 {
     "name": "com.egs.eventbus",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "displayName": "EventBus",
     "description": "...",
-    "unity": "2020.3",
-    "unityRelease": "8f1",
+    "unity": "6000.0",
+    "unityRelease": "f1",
     "author": {
         "name": "EGS",
         "email": "eletronicgamesstudio@gmail.com",
