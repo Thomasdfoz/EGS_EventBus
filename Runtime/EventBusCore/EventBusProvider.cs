@@ -1,7 +1,18 @@
-namespace EventBusCore.Services 
+namespace EventBusCore.Services
 {
     public static class EventBusProvider
     {
-        public static IEventBus Bus { get; set; }
+        private static IEventBus _bus;
+
+        public static IEventBus Bus
+        {
+            get
+            {
+                if (_bus == null)
+                    _bus = new EventBus();
+
+                return _bus;
+            }
+        }
     }
 }
