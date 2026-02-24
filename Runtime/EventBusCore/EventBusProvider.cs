@@ -12,7 +12,7 @@ namespace EventBusCore.Services
                     _bus = new EventBus();
 
                 return _bus;
-            }
+            }   
         }
     }
 }
